@@ -34,7 +34,9 @@ cd university-etl
 
     Transform: Loads data into a pandas DataFrame, filters universities in California.
 
-    Load: Inserts the filtered data into a PostgreSQL table.
+    - **Load**:
+  - Insert the filtered data into a PostgreSQL database (optional).
+  - Save the filtered data to a CSV and upload the CSV file to an Amazon S3 bucket.
 
 
 📘 License
